@@ -107,9 +107,11 @@ FROM vendedor
 WHERE faixacomissao = 'C'
 ORDER BY nome;
 
+//Testando o case sensitive. O primeiro select retorna um resultado enquanto o segundo que difere em case não retorna nenhum.
 SELECT *
 FROM cliente
 WHERE nome like '________a';
+
 
 SELECT *
 FROM cliente
